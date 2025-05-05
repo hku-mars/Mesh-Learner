@@ -1,1 +1,1 @@
-Mesh-Learner: Texturing Mesh with Spherical Harmonics
+**Mesh-Learner: Texturing Mesh with Spherical Harmonics**
