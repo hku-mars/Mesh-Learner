@@ -1,4 +1,4 @@
-# **[IROS 2025]Mesh-Learner: Texturing Mesh with Spherical Harmonics**
+# **[IROS 2025] Mesh-Learner: Texturing Mesh with Spherical Harmonics**
 
 ## 1. Introduction
 
