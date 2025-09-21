@@ -7,3 +7,11 @@
 ```bash
   docker pull alexwanwan/mesh_learner
   sudo docker run --ipc=host -p 10301:10400 -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=:0 -e GDK_SCALE -e GDK_DPI_SCALE --name mesh_learner_docker --runtime=nvidia -v [your_path] --gpus all mesh_learner:1.0 /bin/bash
+```
+
+## 3. Acknowledgement
+This project is relied on the following open-source projects:
+- [cuCollections](https://github.com/NVIDIA/cuCollections)
+- [rapidJson](https://github.com/Tencent/rapidjson)
+- [ReplicaSDK](https://github.com/facebookresearch/Replica-Dataset)
+- [tensorboard.cpp](https://github.com/Mininglamp-Technology/tensorboard.cpp)
