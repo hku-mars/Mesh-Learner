@@ -1,6 +1,7 @@
 # **[IROS 2025] Mesh-Learner: Texturing Mesh with Spherical Harmonics**
 
 ## 1. Introduction
+Mesh-Learner is a framework natively compatible with traditional rasterization pipelines that integrates mesh and spherical harmonic (SH) Texture (i.e., texture filled with SH coefficients) into the learning process to learn each mesh’s view-dependent radiance end-to-end.
 
 ## 2. Environment Setup
 > 1 min setup: we offer the docker image ready for compilation and run
