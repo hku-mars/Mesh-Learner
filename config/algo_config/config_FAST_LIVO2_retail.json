@@ -1,0 +1,59 @@
+{
+    "shOrder" : 2,
+
+    "gtW" : 640,
+    "gtH" : 512,
+    "renderW" : 1280,
+    "renderH" : 1024,
+    "perPoseTrainCnt" : 1,
+    "schedulerPatience" : 1000,
+    "invDistFactorEdge" : 0.9,
+    "invDistFactorCorner" : 0.9,
+
+    "maxTexWH" : 10,
+    "trainPoseCount" : 1000000,
+
+    "shDensity" : 0.05,
+    "shDensityMax" : 0.0001,
+    "gaussianCoeffEWA" : 2.0,
+
+    "resizeStartStep" : 3500,
+    "resizePatience" : 1,
+    "resizeReturnCntMax" : 2,
+    "resizeConvergeThreshold" : 0.2,
+    "resizeTriangleEdgeMinLen" : 0.01,
+    "resizeDepthThreshold" : 500.00,
+    "texResizeInterval" : 3500,
+    "testInterval" : 500,
+
+    "varThresholdPSNR" : 0.01,
+    "densityUpdateStep" : 0.002,
+    "densityUpdateStepInner" : 0.001,
+    "L1lossThreshold" : 0.001,
+
+    "saveDir" : "",
+    "tensorboardDir" : "",
+    "experimentName" : "_retail_",
+    "gtPosePath" : "",
+    "gtImageDir" : "",
+    "meshPath" : "",
+
+    "highOrderSHLrMultiplier" : 1.0,
+
+    "evalSequencePath" : "",
+    "evalImgPath" : "",
+
+    "testSequencePath" : "",
+    "testGtimgPath" : "",
+
+    "printPixX" : 491,
+    "printPixY" : 403,
+    "printGradTexId" : 27,
+
+    "isRenderingMode" : 0,
+    "savedJsonPath" : "",
+    "savedBinPath" : "",
+    "RenderingPosePath" : "",
+    "ConvergedSaveInterval" : 10000
+
+}

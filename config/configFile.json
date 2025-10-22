@@ -1,0 +1,10 @@
+{
+    "cameraConfigGtPath" : "config/camera_config/camera_info_FAST_LIVO2_retail.json",
+    "algoConfigPath" : "config/algo_config/config_FAST_LIVO2_retail.json",
+    "sceneType" : 0,
+    "sceneTypeComment" : "0 LIVO2, 1 Replica, 2 Blender",
+    "meshType" : 3,
+    "meshTypeComment" : "0 ImMesh, 1 Replica, 2 Blender, 3 MESH_TYPE_M2_MAPPING"
+
+    
+}

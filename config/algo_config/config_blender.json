@@ -1,0 +1,48 @@
+{
+    "shOrder" : 0,
+
+    "gtW" : 1024,
+    "gtH" : 1024,
+
+    "renderW" : 1024,
+    "renderH" : 1024,
+    "perPoseTrainCnt" : 50,
+    "schedulerPatience" : 1000,
+    "invDistFactorEdge" : 0.9,
+    "invDistFactorCorner" : 0.8,
+
+    "maxTexWH" : 40,
+    "trainPoseCount" : 500000,
+
+    "shDensity" : 0.1,
+    "gaussianCoeffEWA" : 2.0,
+
+    "resizePatience" : 3,
+    "resizeDepthThreshold" : 5.00,
+    "texResizeInterval" : 300,
+    "testInterval" : 40,
+
+    "varThresholdPSNR" : 0.01,
+    "densityUpdateStep" : 0.002,
+    "densityUpdateStepInner" : 0.001,
+    "L1lossThreshold" : 0.001,
+
+    "saveDir" : "/media/mars/data/wanyunfei/ImMesh_out/saved_model/",
+    "tensorboardDir" : "/media/mars/data/wanyunfei/ImMesh_out/tensorboard/",
+    "experimentName" : "test_blender_test_glew_headless",
+    "gtPosePath" : "/media/mars/data/wanyunfei/dataset/blender/50-10-10/train50/pose.txt",
+    "gtImageDir" : "/media/mars/data/wanyunfei/dataset/blender/50-10-10/train50/img/",
+    "meshPath" : "/media/mars/data/wanyunfei/dataset/blender/mono_color/mesh/mono_color_rectangular.ply",
+    "poseConfidencePath1" : "/home/wan/work/MARS/dataset/LIVO2_SZB/wan_LIVO2_out_with_err/txt/pose_confidence.txt",
+
+    "highOrderSHLrMultiplier" : 1.0,
+
+    "evalSequencePath" : "/media/mars/data/wanyunfei/dataset/blender/50-10-10/eval10/pose.txt",
+    "evalImgPath" : "/media/mars/data/wanyunfei/dataset/blender/50-10-10/eval10/img/",
+
+    "testSequencePath" : "/media/mars/data/wanyunfei/dataset/blender/50-10-10/test10/pose.txt",
+    "testGtimgPath" : "/media/mars/data/wanyunfei/dataset/blender/50-10-10/test10/img/",
+    "printPixX" : 491,
+    "printPixY" : 403,
+    "printGradTexId" : 27
+}
