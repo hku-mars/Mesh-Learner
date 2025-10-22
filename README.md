@@ -7,10 +7,15 @@ Mesh-Learner is a framework natively compatible with traditional rasterization p
 > 1 min setup: we offer the docker image ready for compilation and run
 ```bash
   docker pull alexwanwan/mesh_learner
-  sudo docker run --ipc=host -p 10301:10400 -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=:0 -e GDK_SCALE -e GDK_DPI_SCALE --name mesh_learner_docker --runtime=nvidia -v [your_path] --gpus all mesh_learner:1.0 /bin/bash
+  sudo docker run --net=host --ipc=host -p 10301:10400 -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=:0 -e GDK_SCALE -e GDK_DPI_SCALE --name mesh_learner_docker --runtime=nvidia -v [your_path] --gpus all mesh_learner:1.0 /bin/bash
+  docker exec -it mesh_learner_docker bash
+```
+## 3. build
+```bash
+  cd build && cmake .. && make -j
 ```
 
-## 3. Acknowledgement
+## 4. Acknowledgement
 This project is relied on the following open-source projects:
 - [cuCollections](https://github.com/NVIDIA/cuCollections)
 - [rapidJson](https://github.com/Tencent/rapidjson)
