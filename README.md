@@ -24,3 +24,13 @@ This project is relied on the following open-source projects:
 - [rapidJson](https://github.com/Tencent/rapidjson)
 - [ReplicaSDK](https://github.com/facebookresearch/Replica-Dataset)
 - [tensorboard.cpp](https://github.com/Mininglamp-Technology/tensorboard.cpp)
+
+## 6. Citation
+```bash
+@article{wan2025mesh,
+  title={Mesh-Learner: Texturing Mesh with Spherical Harmonics},
+  author={Wan, Yunfei and Liu, Jianheng and Zheng, Chunran and Lin, Jiarong and Zhang, Fu},
+  journal={arXiv preprint arXiv:2504.19938},
+  year={2025}
+}
+```
